@@ -1,7 +1,7 @@
 import React from "react"
-import {render} from "react-dom"
+import ReactDOM from "react-dom"
 
-render(
-  <h1>hello world!!!!!!</h1>,
+ReactDOM.render(
+  <h1>hello jessa, again!!!!!!!!!!!</h1>,
     document.getElementById('root')
 );
