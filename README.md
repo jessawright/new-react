@@ -8,4 +8,5 @@ Much thanks to [gnarmis](https://github.com/gnarmis).
 ## Important bits
 * `npm run build` This bundles everything up and builds it into the /site folder.
 * `webpack run dev` This spins up a server at `localhost:8080` where you can see your app running.
-* If you run one of each of those in separate terminal windows, you can save your file, then refresh the browser to see changes, rather than stopping the server, building, then restarting the server. 
+* If you run one of each of those in separate terminal windows, you can save your file, then refresh the browser to see changes, rather than stopping the server, building, then restarting the server.
+* `npm install` Since node_modules is in .gitignore, you need to install them in your new project after cloning this. This command will install everything that is listed as dependencies in package.json.
